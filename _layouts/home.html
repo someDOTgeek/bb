@@ -1,16 +1,11 @@
 ---
 layout: default
-title: Home
 ---
-<ul>
-{% for post in paginator.posts %}
-  <li class="posts-container">
-    <h3>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    </h3>
-    <p>
-      {{ post.content | strip_html | truncate: 350 }}
-    </p>
-  </li>
-{% endfor %}
-</ul>
+		<ul>
+			{% for post in paginator.posts %}
+  			<li class="posts-container">
+				<h3><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h3>
+				<p>{{ post.content | strip_html | truncate: 350 }}</p>
+			</li>
+			{% endfor %}
+		</ul>
