@@ -1,0 +1,12 @@
+# Settings
+
+## Build
+markdown:		kramdown
+highlighter:		rouge
+permalink:		/:title
+plugins:		[jekyll-paginate]
+paginate:		5
+
+## Info
+title:			"some.geek BBS"
+icon:			"https://avatars.githubusercontent.com/u/94938943"
