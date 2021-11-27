@@ -1,0 +1,18 @@
+---
+layout: default
+---
+		<h3>{{ post.title }}</h3>
+		<p style="text-align:grey">{{ post.content | strip_html }}</p>
+		<p><i>Created the {{ post.date | date_to_string }}</i></p>
+		<script src="https://giscus.app/client.js"
+			data-repo="{{ site.repo }}"
+			data-repo-id="{{ site.repo_id }}"
+			data-mapping="number"
+			data-term="{{ post.post_id }}"
+			data-reactions-enabled="0"
+			data-emit-metadata="0"
+			data-theme="{{ site.github.url }}{{ post.url }}"
+			data-lang="{{ site.language }}"
+			crossorigin="anonymous"
+			async>
+		</script>
