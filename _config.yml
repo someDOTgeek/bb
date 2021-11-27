@@ -15,3 +15,5 @@ repo_id:		"R_kgDOGcRpmQ"
 title:			"some.geek BBS"
 icon:			"https://avatars.githubusercontent.com/u/94938943"
 language:		"en"
+
+custom_stylesheet: "https://raw.githubusercontent.com/someDOTgeek/bbs/main/styles.css"
