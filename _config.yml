@@ -1,19 +1,17 @@
 # Settings
 
 ## Build
-markdown:		kramdown
-highlighter:		rouge
+markdown:			kramdown
+highlighter:	rouge
 permalink:		/:title/
-plugins:		[jekyll-paginate]
-paginate:		5
+plugins:			[jekyll-paginate]
+paginate:			5
 
 ## Repo
-repo:			"someDOTgeek/bbs"
-repo_id:		"R_kgDOGcRpmQ"
+repo:					"someDOTgeek/bbs"
+repo_id:			"R_kgDOGcRpmQ"
 
 ## Info
-title:			"some.geek BBS"
-icon:			"https://avatars.githubusercontent.com/u/94938943"
-language:		"en"
-
-custom_stylesheet: "https://sdg-bbs.netlify.app/styles.css"
+title:				"some.geek BBS"
+icon:					"http://some.geek/sdg.png"
+language:			"en"
