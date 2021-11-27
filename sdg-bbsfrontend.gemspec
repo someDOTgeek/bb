@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "N/A"
   spec.homepage      = "https://github.com/someDOTgeek/bbs"
-  spec.license       = "Unlicense"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|CHANGELOG)!i) }
 
