@@ -10,12 +10,12 @@ layout: default
 			</li>
 			{% endfor %}
 		</ul>
-		<div>
+		<div style="text-align:center">
 			{% if paginator.next_page %}
 				<a href="{{ site.github.url }}{{ paginator.next_page_path }}"><=</a>
 			{% else %}
 				<span><=</span>
-			{% endif %}
+			{% endif %} | 
 			{% if paginator.previous_page %}
 				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">=></a>
 			{% else %}
